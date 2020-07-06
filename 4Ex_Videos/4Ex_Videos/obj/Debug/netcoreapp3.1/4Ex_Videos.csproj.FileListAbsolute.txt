@@ -1,0 +1,13 @@
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\bin\Debug\netcoreapp3.1\4Ex_Videos.exe
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\bin\Debug\netcoreapp3.1\4Ex_Videos.deps.json
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\bin\Debug\netcoreapp3.1\4Ex_Videos.runtimeconfig.json
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\bin\Debug\netcoreapp3.1\4Ex_Videos.runtimeconfig.dev.json
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\bin\Debug\netcoreapp3.1\4Ex_Videos.dll
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\bin\Debug\netcoreapp3.1\4Ex_Videos.pdb
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\obj\Debug\netcoreapp3.1\4Ex_Videos.csprojAssemblyReference.cache
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\obj\Debug\netcoreapp3.1\4Ex_Videos.AssemblyInfoInputs.cache
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\obj\Debug\netcoreapp3.1\4Ex_Videos.AssemblyInfo.cs
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\obj\Debug\netcoreapp3.1\4Ex_Videos.csproj.CoreCompileInputs.cache
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\obj\Debug\netcoreapp3.1\4Ex_Videos.dll
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\obj\Debug\netcoreapp3.1\4Ex_Videos.pdb
+C:\Users\erica\Documents\GiT\4Ex_Videos\4Ex_Videos\4Ex_Videos\obj\Debug\netcoreapp3.1\4Ex_Videos.genruntimeconfig.cache
