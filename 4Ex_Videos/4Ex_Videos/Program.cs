@@ -266,10 +266,11 @@ namespace _4Ex_Videos
             do
             {
                 Console.WriteLine("Escriu el tag que vols afegir");
-                nouTag = respostaBuida(Console.ReadLine());
-                video.TAGS.Add(nouTag);
+                video.addTags(respostaBuida(Console.ReadLine()));
+                
                 Console.WriteLine("Tag afegit correctament.");
-                Console.WriteLine($"Actualment el vídeo {video.TITOL} té els següents tags: {video.TAGS}");
+                Console.WriteLine($"Actualment el vídeo {video.TITOL} té els següents tags: ");
+                foreach (string t in video.TAGS) { Console.Write(t+"-"); }
                 Console.WriteLine("Vols afegir més tags? (S/N)");
                 if(validarResposta(respostaBuida(Console.ReadLine()),opcions)=='N') continuar = false;
             } while (continuar);
@@ -391,65 +392,4 @@ namespace _4Ex_Videos
             return selectedUser;
         }
     }
-
-    class Video
-    {
-        private string url, titol;
-        private string username_Usuari;
-        private List<string> tags = new List<string>();
-        public string URL
-        {
-            get => this.url;
-            set => this.url = value;
-        }
-        public string TITOL
-        {
-            get => this.titol;
-            set => this.titol = value;
-        }
-        public List<string> TAGS
-        {
-            get => this.tags;
-            //no entiendo qué ocurre con el setter, ¿Porqué no puedo añadir elementos a la lista?
-            //set => this.tags.Add(value);
-        }
-        public string USERNAME_USUARI
-        {
-            get => this.username_Usuari;
-            set => this.username_Usuari = value;
-        }
-    }
-
-    class Usuari
-    {
-        private string userName, nom, cognom, password;
-        private DateTime Data;
-        public string USERNAME
-        {
-            get => this.userName;
-            set => this.userName = value;
-        }
-        public string NOM
-        {
-            get => this.nom;
-            set => this.nom = value;
-        }
-        public string COGNOM
-        {
-            get => this.cognom;
-            set => this.cognom = value;
-        }
-        public string PASSSWORD
-        {
-            get => this.password;
-            set => this.password = value;
-        }
-        public DateTime DATA
-        {
-            get => this.Data;
-            set => this.Data = value;
-        }
-    }
-
-    
 }
